@@ -1,0 +1,87 @@
+
+* {
+    background-color: grey;
+}
+
+body{
+  font-family : arial;
+}
+
+
+.blox {
+  padding : 0.75em;
+  box-sizing: border-box;
+}
+
+.blox-img{
+  margin-right : 0.5em
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+.container{
+  width : 100%;
+  /* background-color : purple;*/
+  margin : auto;
+  border: 0.3em solid black;
+}
+
+.left {
+  float : left;
+}
+
+.third : {
+ width : 30%;
+}
+
+.fourth : {
+ width : 25%;
+}
+.right {
+  float : right;
+}
+
+.top {
+  /* background-color : green;*/
+  padding : 1em;
+}
+
+
+
+@media(min-width : 768px){
+
+
+  .blox {
+    width : 33%;
+    float : left;
+  }
+
+  .top h1 {
+    float : left;
+  }
+
+  .container{
+    width : 85%;
+  }
+
+  .img {
+    float : left;
+    margin : 2em;
+  }
+
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
